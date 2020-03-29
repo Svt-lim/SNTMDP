@@ -1,7 +1,7 @@
 # SNTMDP
 # SNT activité en ligne 1
 
-Objectif : faire une générateur de mot de passe "fort". 
+Objectif : faire un générateur de mot de passe "fort". 
 
 vous avez accès à un exemple de programme ici : [lien](https://repl.it/@jpeaud/generateurmdp) 
 
@@ -10,7 +10,7 @@ print("Mon générateur de mots de passe")
 import random
 lettres="abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
 longueur=8
-mdp="".join(random.sample(lettres,longeur))
+mdp="".join(random.sample(lettres,longueur))
 print("le mot de passe est: " + mdp)
 ```
 
