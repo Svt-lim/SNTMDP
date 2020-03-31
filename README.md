@@ -20,9 +20,9 @@ Dans la variable **lettres**, on stocke les caractères que l'on autorise pour l
 
 Dans la variable **longueur** on stocke la longueur du mot de passe. 
 
-Dans la variable **mdp** on stocke le mot de passe. /!\ on signale à l'ordinateur que la variable est vide avec les " ". 
+Dans la variable **mdp** on stocke le mot de passe généré. /!\ on signale à l'ordinateur que la variable est vide avec les " ". 
 
-la commande suivant permet de joindre au hasard le nombre de caractères contenus dans **lettres** dans la limite de la valeur marquée dans **longueur**
+la commande suivante permet de joindre au hasard le nombre de caractères contenus dans **lettres** dans la limite de la valeur marquée dans **longueur**
 
 ```python
 mdp="".join(random.sample(lettres,longueur))
@@ -44,7 +44,7 @@ il faut utiliser la commande int(input()) comme dans l'exemple suivant : x=int(i
 
 ## Defi 
 
-Donnez le choix de la longueur du mot de passe à utilisateur et lui donner le choix entre un mot de passe fait uniquement de chiffre, uniquement des lettres de l'alphabet ou le mode par défaut (=tout)
+Donnez le choix de la longueur du mot de passe à utilisateur et lui donner le choix entre un mot de passe fait uniquement de chiffres, uniquement des lettres de l'alphabet ou le mode par défaut (=tout)
 
 <details>  <summary>une piste</summary>   
 il faut utiliser une boucle if/else
